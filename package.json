@@ -8,9 +8,9 @@
     "lint": "eslint .",
     "prepare": "husky install",
     "simple:worker": "node simple-worker",
-    "prime:1": "node prime-1",
-    "prime:2": "node prime-2",
-    "prime:3": "node prime-3"
+    "prime:naive": "node prime-1",
+    "prime:shared-data": "node prime-2",
+    "prime:thread-safe": "node prime-3"
   },
   "repository": {
     "type": "git",
