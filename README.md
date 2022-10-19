@@ -4,7 +4,7 @@
 
 Example of a concurrent prime number calculator in Node.js
 
-Requires Node 16 and don't forget `npm i`
+Requires Node LTS and don't forget `npm i`
 
 * `npm run simple:worker` - for the first example to show two threads
 * `npm run prime:naive` - for the basic example
