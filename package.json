@@ -1,0 +1,39 @@
+{
+  "name": "concurrent-prime-example",
+  "version": "1.0.0",
+  "description": "Example of a concurrent prime number calculator in Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install",
+    "simple:worker": "node simple-worker",
+    "prime:1": "node prime-1",
+    "prime:2": "node prime-2",
+    "prime:3": "node prime-3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearform/concurrent-prime-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nearform/concurrent-prime-example/issues"
+  },
+  "homepage": "https://github.com/nearform/concurrent-prime-example#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache --fix"
+  }
+}
